@@ -60,3 +60,17 @@ const sumArray = (array) => {
 console.log(sumArray([1,2,3,4])) // returns 10
 console.log(sumArray([2,4,5])) // returns 11
 console.log(sumArray([4,1])) // returns 5
+
+console.log("Question 5:")
+// 5.
+function multiplyArray(array) {
+    result = 1
+    for (i=0; i < array.length; i++) {
+        result *= array[i]
+    }
+    return result
+}
+
+console.log(multiplyArray([2,4,5])) // returns 40
+console.log(multiplyArray([2,4])) // returns 8
+console.log(multiplyArray([3,5,2,4])) // returns 120
