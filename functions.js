@@ -31,3 +31,18 @@ const maxOfThree = function(numberOne, numberTwo, numberThree) {
   console.log(maxOfThree(6, 7, 9)) // returns 9
   console.log(maxOfThree(0, -2, 4)) // returns 4
   console.log(maxOfThree(3, 3, 3)) // returns 3
+
+console.log("Question 3:")
+// 3.
+function isCharAVowel(character) {
+    character = character.toLowerCase()
+    if (character ==="a" || character ==="e" || character ==="i" || character ==="o" || character ==="u" ){
+        return true
+    } else {
+        return false
+    }
+}
+
+console.log(isCharAVowel('a')) // returns true
+console.log(isCharAVowel('U')) // returns true
+console.log(isCharAVowel('X')) // returns false
