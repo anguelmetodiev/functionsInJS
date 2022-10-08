@@ -46,3 +46,17 @@ function isCharAVowel(character) {
 console.log(isCharAVowel('a')) // returns true
 console.log(isCharAVowel('U')) // returns true
 console.log(isCharAVowel('X')) // returns false
+
+console.log("Question 4:")
+// 4.
+const sumArray = (array) => {
+    sum = 0
+    for (i=0; i < array.length; i++) {
+        sum += array[i]
+    }
+    return sum
+}
+
+console.log(sumArray([1,2,3,4])) // returns 10
+console.log(sumArray([2,4,5])) // returns 11
+console.log(sumArray([4,1])) // returns 5
