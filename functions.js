@@ -84,3 +84,25 @@ const numArgs = (...args) => {
 console.log(numArgs("x", "y")) // returns 2
 console.log(numArgs(1, 2, 3,)) // returns 3
 console.log(numArgs()) // returns 0
+
+console.log("Question 7:")
+// 7.
+function reverseStraight(str) {
+    let reversedString = '';
+         for (i = str.length - 1; i >= 0; i--){
+            reversedString = reversedString + str[i];
+     }
+     return reversedString;
+}
+
+// ======= Using Methods =========
+// function reverseStraight(str) {
+//     return str
+//         .split("")
+//         .reverse()
+//         .join("")
+// }
+
+console.log(reverseStraight("rockstar")) // returns ratskor
+console.log(reverseStraight("anguel")) // returns leugna
+console.log(reverseStraight("I am")) // ma I
