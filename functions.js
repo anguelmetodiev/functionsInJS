@@ -106,3 +106,19 @@ function reverseStraight(str) {
 console.log(reverseStraight("rockstar")) // returns ratskor
 console.log(reverseStraight("anguel")) // returns leugna
 console.log(reverseStraight("I am")) // ma I
+
+console.log("Question 8:")
+// 8.
+const longestStringInArray = (array) => {
+    let counter = array[0]
+    for (i = 0; i < array.length; i++) {
+        if (array[i].length > counter.length) {
+            counter = array[i]
+        }
+    }
+    console.log(counter.length)
+}
+
+longestStringInArray(["hi", "bye", "technical"]) // returns 9
+longestStringInArray(["anguel", "test", "program"]) // returns 7
+longestStringInArray(["aaaaaa", "bbbbb", "cc"]) // returns 6
