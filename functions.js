@@ -74,3 +74,13 @@ function multiplyArray(array) {
 console.log(multiplyArray([2,4,5])) // returns 40
 console.log(multiplyArray([2,4])) // returns 8
 console.log(multiplyArray([3,5,2,4])) // returns 120
+
+console.log("Question 6:")
+// 6.
+const numArgs = (...args) => {
+    return args.length
+}
+
+console.log(numArgs("x", "y")) // returns 2
+console.log(numArgs(1, 2, 3,)) // returns 3
+console.log(numArgs()) // returns 0
